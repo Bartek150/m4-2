@@ -1,0 +1,43 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #3c00ff; /* Kolor tła strony internetowej */
+    color: #FFFFFF; /* Kolor tła strony internetowej*/ 
+    animation: animacja2 5s infinite
+} 
+h1:hover {
+    color: #D6FF6B; /* Kolor nagłówka */
+    font-size: 24px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+li {
+    color: #D6FF6B; /* Kolor nagłówka */
+    font-size: 24px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    animation: animacja 2s infinite
+    
+}
+
+@keyframes animacja {
+    0% {
+    color: #FFFFFF;
+    }
+    50%{
+    color: #D6FF6B;
+    }
+    75%{
+    color: red;
+    }
+    }
+    
+@keyframes animacja2 {
+    0% {
+    color: #FFFFFF;
+    }
+    50%{
+    color: #D6FF6B;
+    }
+    75%{
+    color: red;
+    }
+    }
